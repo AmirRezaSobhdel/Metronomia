@@ -25,7 +25,7 @@ allprojects {
 
 ```css
 dependencies {
-	        implementation 'com.github.AmirRezaSobhdel:Metronomia:1.0.1'
+	        implementation 'com.github.AmirRezaSobhdel:Metronomia:1.0.2'
 	}
 ```
 
