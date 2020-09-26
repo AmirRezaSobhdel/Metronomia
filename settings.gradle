@@ -1,0 +1,3 @@
+include ':metronomia'
+include ':app'
+rootProject.name = "MetronomiaProject"
