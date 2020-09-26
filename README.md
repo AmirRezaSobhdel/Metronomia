@@ -1,11 +1,10 @@
 # Metronomia
-# Metronomia
 
 a lifecycle aware metronome library with callbacks , dynamic tempo changer and all the other things you need for your app !
 
 
 
-### features
+## features
 
 + start , stop and pause the metronome
 + dynamically change the tempo(bpm)
@@ -13,7 +12,7 @@ a lifecycle aware metronome library with callbacks , dynamic tempo changer and a
 
 
 
-### get Metronomia into your project
+## get Metronomia into your project
 
 ```css
 allprojects {
@@ -30,7 +29,7 @@ dependencies {
 	}
 ```
 
-### how to use
+## how to use
 
 ```kotlin
 // initialize metronomia instance
