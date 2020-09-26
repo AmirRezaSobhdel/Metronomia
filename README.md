@@ -4,7 +4,9 @@ a lifecycle aware metronome library with callbacks , dynamic tempo changer and a
 
 
 
+
 ![metronome](https://github.com/AmirRezaSobhdel/Metronomia/blob/master/metronome.png)
+
 
 
 
