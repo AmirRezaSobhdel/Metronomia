@@ -51,10 +51,10 @@ class Metronomia(lifecycleOwner: LifecycleOwner) {
         lastBpm = bpm
     }
 
-    var lastBpm = 0
-    var delayTimeIfNeeded: Long = 0
-    var metronomeIntervalTime: Long = 0
-    var metronomeRepeatStartedRepeatingAt: Long = 0
+    private var lastBpm = 0
+    private var delayTimeIfNeeded: Long = 0
+    private var metronomeIntervalTime: Long = 0
+    private var metronomeRepeatStartedRepeatingAt: Long = 0
 
     fun pauseMetronome()
     {
@@ -74,7 +74,7 @@ class Metronomia(lifecycleOwner: LifecycleOwner) {
         return (60000 / bpm.toFloat()).toLong()
     }
 
-    fun calculateDelayTimeIfBpmIsChanged(oldBpm: Int , newBpm: Int , lastDelayTimeIfNeeded: Long): Long
+    private fun calculateDelayTimeIfBpmIsChanged(oldBpm: Int , newBpm: Int , lastDelayTimeIfNeeded: Long): Long
     {
         if (oldBpm != newBpm)
         {
